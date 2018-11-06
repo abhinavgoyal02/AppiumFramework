@@ -1,0 +1,664 @@
+2017-08-26 10:24:56:642 - warn: [BaseDriver] Shutting down because we waited 60 seconds for a command
+2017-08-26 10:24:56:644 - info: [debug] [AndroidDriver] Shutting down Android driver
+2017-08-26 10:24:56:644 - warn: [Appium] Closing session, cause was 'New Command Timeout of 60 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+2017-08-26 10:24:56:645 - info: [Appium] Removing session 59a43025-89d0-4faa-b2b0-a11816d15b14 from our master session list
+2017-08-26 10:24:56:646 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:24:56:687 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:24:56:687 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","am","force-stop","io.selendroid.testapp"]
+2017-08-26 10:24:56:696 - info: [Appium] Welcome to Appium v1.6.5
+2017-08-26 10:24:56:698 - info: [Appium] Non-default server args:
+2017-08-26 10:24:56:698 - info: [Appium]   address: 127.0.0.1
+2017-08-26 10:24:56:699 - info: [Appium]   log: C:\Users\Abhinav Goyal\workspace\WebDriver-Automation\AppiumFramework\src\test\resources\logs\Appium.log
+2017-08-26 10:24:56:735 - info: [Appium] Appium REST http interface listener started on 127.0.0.1:4723
+2017-08-26 10:24:57:814 - info: [debug] [ADB] Pressing the HOME button
+2017-08-26 10:24:57:815 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:24:57:852 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:24:57:853 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","input","keyevent",3]
+2017-08-26 10:24:58:574 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"shutdown"}
+2017-08-26 10:24:58:591 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"shutdown"}
+2017-08-26 10:24:58:603 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type SHUTDOWN
+2017-08-26 10:24:58:644 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"OK, shutting down"}
+2017-08-26 10:24:58:648 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2017-08-26 10:24:58:649 - info: [debug] [UiAutomator] Shutting down UiAutomator
+2017-08-26 10:24:58:649 - info: [debug] [UiAutomator] Moving to state 'stopping'
+2017-08-26 10:24:58:652 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Closed client connection
+2017-08-26 10:24:58:652 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: numtests=1
+2017-08-26 10:24:58:652 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: stream=.
+2017-08-26 10:24:58:652 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+2017-08-26 10:24:58:652 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: test=testRunServer
+2017-08-26 10:24:58:653 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap
+2017-08-26 10:24:58:653 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: current=1
+2017-08-26 10:24:58:653 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS_CODE: 0
+2017-08-26 10:24:58:655 - info: [debug] [UiAutomator] UiAutomator shut down normally
+2017-08-26 10:24:58:656 - info: [debug] [UiAutomator] Moving to state 'stopped'
+2017-08-26 10:24:58:656 - info: [debug] [ADB] Attempting to kill all uiautomator processes
+2017-08-26 10:24:58:656 - info: [debug] [ADB] Getting all processes with uiautomator
+2017-08-26 10:24:58:657 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:24:58:692 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:24:58:692 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","ps"]
+2017-08-26 10:24:58:813 - info: [ADB] No uiautomator process found to kill, continuing...
+2017-08-26 10:24:58:814 - info: [debug] [UiAutomator] Moving to state 'stopped'
+2017-08-26 10:24:58:815 - info: [debug] [Logcat] Stopping logcat capture
+2017-08-26 10:24:58:822 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:24:58:856 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:24:58:857 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","am","force-stop","io.appium.unlock"]
+2017-08-26 10:24:59:566 - info: [debug] [AndroidDriver] Not cleaning generated files. Add `clearSystemFiles` capability if wanted.
+2017-08-26 10:25:06:612 - info: [HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"C:\\Users\\Abhinav Goyal\\workspace\\WebDriver-Automation\\MobileFramework\\src\\test\\resources\\app\\selendroid-test-app-0.17.0.apk","platformVersion":"6.0.1","automationName":"Appium","browserName":"null","platformName":"Android","deviceName":"Redmi Note 3"},"requiredCapabilities":{},"capabilities":{"desiredCapabilities":{"app":"C:\\Users\\Abhinav Goyal\\workspace\\WebDriver-Automation\\MobileFramework\\src\\test\\resources\\app\\selendroid-test-app-0.17.0.apk","platformVersion":"6.0.1","automationName":"Appium","browserName":"null","platformName":"Android","deviceName":"Redmi Note 3"},"requiredCapabilities":{}},"alwaysMatch":{"app":"C:\\Users\\Abhinav Goyal\\workspace\\WebDriver-Automation\\MobileFramework\\src\\test\\resources\\app\\selendroid-test-app-0.17.0.apk","platformVersion":"6.0.1","automationName":"Appium","browserName":"null","platformName":"Android","deviceName":"Redmi Note 3"},"firstMatch":[]}
+2017-08-26 10:25:06:614 - info: [debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"app":"C:\\Users\\Abhinav Goyal\\workspace\\WebDriver-Automation\\MobileFramework\\src\\test\\resources\\app\\selendroid-test-app-0.17.0.apk","platformVersion":"6.0.1","automationName":"Appium","browserName":"null","platformName":"Android","deviceName":"Redmi Note 3"},{},{"desiredCapabilities":{"app":"C:\\Users\\Abhinav Goyal\\workspace\\WebDriver-Automation\\MobileFramework\\src\\test\\resources\\app\\selendroid-test-app-0.17.0.apk","platformVersion":"6.0.1","automationName":"Appium","browserName":"null","platformName":"Android","deviceName":"Redmi Note 3"},"requiredCapabilities":{}}]
+2017-08-26 10:25:06:614 - info: [debug] [BaseDriver] Event 'newSessionRequested' logged at 1503743106614 (15:55:06 GMT+0530 (India Standard Time))
+2017-08-26 10:25:06:615 - info: [Appium] Creating new AndroidDriver (v1.20.0) session
+2017-08-26 10:25:06:615 - info: [Appium] Capabilities:
+2017-08-26 10:25:06:615 - info: [Appium]   app: 'C:\\Users\\Abhinav Goyal\\workspace\\WebDriver-Automation\\MobileFramework\\src\\test\\resources\\app\\selendroid-test-app-0.17.0.apk'
+2017-08-26 10:25:06:615 - info: [Appium]   platformVersion: '6.0.1'
+2017-08-26 10:25:06:615 - info: [Appium]   automationName: 'Appium'
+2017-08-26 10:25:06:616 - info: [Appium]   browserName: 'null'
+2017-08-26 10:25:06:616 - info: [Appium]   platformName: 'Android'
+2017-08-26 10:25:06:616 - info: [Appium]   deviceName: 'Redmi Note 3'
+2017-08-26 10:25:06:617 - info: [debug] [AndroidDriver] AndroidDriver version: 1.20.0
+2017-08-26 10:25:06:619 - warn: [AndroidDriver] The desired capabilities should generally not include both an app and a browserName
+2017-08-26 10:25:06:620 - info: [BaseDriver] Session created with session id: e26d67df-82a6-4ef5-8590-f60e6ef468e2
+2017-08-26 10:25:06:620 - info: [debug] [AndroidDriver] Getting Java version
+2017-08-26 10:25:06:733 - info: [AndroidDriver] Java version is: 1.8.0_121
+2017-08-26 10:25:06:734 - info: [ADB] Checking whether adb is present
+2017-08-26 10:25:06:735 - info: [ADB] Using adb.exe from G:\AndroidSDK\platform-tools\adb.exe
+2017-08-26 10:25:06:736 - info: [AndroidDriver] Retrieving device list
+2017-08-26 10:25:06:736 - info: [debug] [ADB] Trying to find a connected android device
+2017-08-26 10:25:06:736 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:25:06:770 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:25:06:770 - info: [AndroidDriver] Looking for a device with Android '6.0.1'
+2017-08-26 10:25:06:771 - info: [debug] [ADB] Setting device id to 597ffcd5
+2017-08-26 10:25:06:771 - info: [ADB] Getting device platform version
+2017-08-26 10:25:06:771 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:25:06:813 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:25:06:814 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","getprop","ro.build.version.release"]
+2017-08-26 10:25:06:881 - info: [AndroidDriver] Using device: 597ffcd5
+2017-08-26 10:25:06:881 - info: [ADB] Checking whether adb is present
+2017-08-26 10:25:06:883 - info: [ADB] Using adb.exe from G:\AndroidSDK\platform-tools\adb.exe
+2017-08-26 10:25:06:883 - info: [debug] [ADB] Setting device id to 597ffcd5
+2017-08-26 10:25:06:884 - info: [BaseDriver] Using local app 'C:\Users\Abhinav Goyal\workspace\WebDriver-Automation\MobileFramework\src\test\resources\app\selendroid-test-app-0.17.0.apk'
+2017-08-26 10:25:06:884 - info: [debug] [AndroidDriver] Checking whether app is actually present
+2017-08-26 10:25:06:885 - info: [AndroidDriver] Starting Android session
+2017-08-26 10:25:06:885 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","wait-for-device"]
+2017-08-26 10:25:06:923 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:25:06:959 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:25:06:960 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","echo","ping"]
+2017-08-26 10:25:07:009 - info: [debug] [Logcat] Starting logcat capture
+2017-08-26 10:25:07:067 - info: [debug] [AndroidDriver] Pushing settings apk to device...
+2017-08-26 10:25:07:068 - info: [debug] [ADB] Getting install status for io.appium.settings
+2017-08-26 10:25:07:069 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:25:07:106 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:25:07:107 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","pm","list","packages","io.appium.settings"]
+2017-08-26 10:25:07:622 - info: [debug] [ADB] App is not installed
+2017-08-26 10:25:07:623 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","install","C:\\Users\\Abhinav Goyal\\AppData\\Local\\Programs\\appium-desktop\\resources\\app\\node_modules\\appium\\node_modules\\io.appium.settings\\app\\build\\outputs\\apk\\settings_apk-debug.apk"]
+2017-08-26 10:25:08:783 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:25:08:820 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:25:08:821 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","getprop","ro.build.version.sdk"]
+2017-08-26 10:25:08:873 - info: [debug] [ADB] Device API level: 23
+2017-08-26 10:25:08:873 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:25:08:920 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:25:08:921 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","dumpsys","package","io.appium.settings"]
+2017-08-26 10:25:08:982 - info: [debug] [AndroidDriver] Pushing unlock helper app to device...
+2017-08-26 10:25:08:983 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","install","C:\\Users\\Abhinav Goyal\\AppData\\Local\\Programs\\appium-desktop\\resources\\app\\node_modules\\appium\\node_modules\\appium-unlock\\bin\\unlock_apk-debug.apk"]
+2017-08-26 10:25:09:653 - info: [debug] [ADB] Device API level: 23
+2017-08-26 10:25:09:654 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:25:09:690 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:25:09:690 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","appops","set","io.appium.settings","android:mock_location","allow"]
+2017-08-26 10:25:10:319 - info: [ADB] Getting device platform version
+2017-08-26 10:25:10:320 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:25:10:354 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:25:10:364 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","getprop","ro.build.version.release"]
+2017-08-26 10:25:10:420 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:25:10:455 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:25:10:456 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","wm","size"]
+2017-08-26 10:25:11:105 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:25:11:141 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:25:11:141 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","getprop","ro.product.model"]
+2017-08-26 10:25:11:202 - info: [debug] [ADB] Current device property 'ro.product.model': Redmi Note 3
+2017-08-26 10:25:11:203 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:25:11:244 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:25:11:245 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","getprop","ro.product.manufacturer"]
+2017-08-26 10:25:11:313 - info: [debug] [ADB] Current device property 'ro.product.manufacturer': Xiaomi
+2017-08-26 10:25:11:313 - info: [debug] [AndroidDriver] Parsing package and activity from app manifest
+2017-08-26 10:25:11:313 - info: [ADB] Checking whether aapt is present
+2017-08-26 10:25:11:316 - info: [ADB] Using aapt.exe from G:\AndroidSDK\build-tools\25.0.3\aapt.exe
+2017-08-26 10:25:11:316 - info: [ADB] Extracting package and launch activity from manifest
+2017-08-26 10:25:11:343 - info: [debug] [ADB] badging package: io.selendroid.testapp
+2017-08-26 10:25:11:343 - info: [debug] [ADB] badging act: io.selendroid.testapp.HomeScreenActivity
+2017-08-26 10:25:11:343 - info: [debug] [AndroidDriver] Parsed package and activity are: io.selendroid.testapp/io.selendroid.testapp.HomeScreenActivity
+2017-08-26 10:25:11:402 - info: [AndroidDriver] Remote apk path is /data/local/tmp/d6d43218105a4e0ccabfb58bb04f24af.apk
+2017-08-26 10:25:11:402 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:25:11:438 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:25:11:439 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","ls","/data/local/tmp/d6d43218105a4e0ccabfb58bb04f24af.apk"]
+2017-08-26 10:25:11:499 - info: [debug] [AndroidDriver] Checking if app is installed
+2017-08-26 10:25:11:499 - info: [debug] [ADB] Getting install status for io.selendroid.testapp
+2017-08-26 10:25:11:500 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:25:11:541 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:25:11:542 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","pm","list","packages","io.selendroid.testapp"]
+2017-08-26 10:25:12:082 - info: [debug] [ADB] App is installed
+2017-08-26 10:25:12:082 - info: [AndroidDriver] Apk is already on remote and installed, resetting
+2017-08-26 10:25:12:082 - info: [debug] [AndroidDriver] Running fast reset (stop and clear)
+2017-08-26 10:25:12:082 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:25:12:119 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:25:12:119 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","am","force-stop","io.selendroid.testapp"]
+2017-08-26 10:25:12:792 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:25:12:829 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:25:12:829 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","pm","clear","io.selendroid.testapp"]
+2017-08-26 10:25:13:307 - info: [debug] [AndroidDriver] Extracting strings from apk C:\Users\Abhinav Goyal\workspace\WebDriver-Automation\MobileFramework\src\test\resources\app\selendroid-test-app-0.17.0.apk undefined C:\Users\ABHINA~1\AppData\Local\Temp\io.selendroid.testapp
+2017-08-26 10:25:13:308 - info: [debug] [ADB] Extracting strings for language: default
+2017-08-26 10:25:13:308 - info: [debug] [ADB] Device API level: 23
+2017-08-26 10:25:13:309 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:25:13:344 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:25:13:345 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","getprop","persist.sys.locale"]
+2017-08-26 10:25:13:403 - info: [debug] [ADB] Current device property 'persist.sys.locale': en-IN
+2017-08-26 10:25:14:001 - info: [debug] [ADB] No strings.xml for language 'en', getting default strings.xml
+2017-08-26 10:25:14:518 - info: [debug] [ADB] Reading strings from converted strings.json
+2017-08-26 10:25:14:519 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","push","C:\\Users\\ABHINA~1\\AppData\\Local\\Temp\\io.selendroid.testapp\\strings.json","/data/local/tmp"]
+2017-08-26 10:25:14:570 - info: [debug] [AndroidBootstrap] Watching for bootstrap disconnect
+2017-08-26 10:25:14:570 - info: [debug] [ADB] Forwarding system: 4724 to device: 4724
+2017-08-26 10:25:14:570 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","forward","tcp:4724","tcp:4724"]
+2017-08-26 10:25:14:574 - info: [debug] [UiAutomator] Starting UiAutomator
+2017-08-26 10:25:14:574 - info: [debug] [UiAutomator] Moving to state 'starting'
+2017-08-26 10:25:14:574 - info: [debug] [UiAutomator] Parsing uiautomator jar
+2017-08-26 10:25:14:574 - info: [debug] [UiAutomator] Found jar name: 'AppiumBootstrap.jar'
+2017-08-26 10:25:14:575 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","push","C:\\Users\\Abhinav Goyal\\AppData\\Local\\Programs\\appium-desktop\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-bootstrap\\bootstrap\\bin\\AppiumBootstrap.jar","/data/local/tmp/"]
+2017-08-26 10:25:14:640 - info: [debug] [ADB] Attempting to kill all uiautomator processes
+2017-08-26 10:25:14:640 - info: [debug] [ADB] Getting all processes with uiautomator
+2017-08-26 10:25:14:640 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:25:14:675 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:25:14:676 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","ps"]
+2017-08-26 10:25:14:811 - info: [ADB] No uiautomator process found to kill, continuing...
+2017-08-26 10:25:14:812 - info: [debug] [UiAutomator] Starting UIAutomator
+2017-08-26 10:25:14:812 - info: [debug] [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","597ffcd5","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","io.selendroid.testapp","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+2017-08-26 10:25:15:465 - info: [debug] [UiAutomator] Moving to state 'online'
+2017-08-26 10:25:15:467 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+2017-08-26 10:25:15:468 - info: [AndroidBootstrap] Android bootstrap socket is now connected
+2017-08-26 10:25:15:468 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:25:15:471 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+2017-08-26 10:25:15:503 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:25:15:503 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","dumpsys","window"]
+2017-08-26 10:25:15:586 - info: [AndroidDriver] Screen already unlocked, doing nothing
+2017-08-26 10:25:15:587 - info: [debug] [ADB] Device API level: 23
+2017-08-26 10:25:15:587 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:25:15:624 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:25:15:625 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","am","start","-W","-n","io.selendroid.testapp/io.selendroid.testapp.HomeScreenActivity","-S"]
+2017-08-26 10:25:16:877 - info: [debug] [ADB] Waiting for activity matching pkg: 'io.selendroid.testapp' and activity: 'io.selendroid.testapp.HomeScreenActivity' to be focused
+2017-08-26 10:25:16:877 - info: [debug] [ADB] Possible activities, to be checked: io.selendroid.testapp.HomeScreenActivity, io.selendroid.testapp.io.selendroid.testapp.HomeScreenActivity
+2017-08-26 10:25:16:877 - info: [debug] [ADB] Getting focused package and activity
+2017-08-26 10:25:16:878 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:25:16:919 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:25:16:919 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","dumpsys","window","windows"]
+2017-08-26 10:25:16:981 - info: [debug] [ADB] Found package: 'io.selendroid.testapp' and fully qualified activity name : 'io.selendroid.testapp.HomeScreenActivity'
+2017-08-26 10:25:16:982 - info: [Appium] New AndroidDriver session created successfully, session e26d67df-82a6-4ef5-8590-f60e6ef468e2 added to master session list
+2017-08-26 10:25:16:983 - info: [debug] [BaseDriver] Event 'newSessionStarted' logged at 1503743116983 (15:55:16 GMT+0530 (India Standard Time))
+2017-08-26 10:25:16:983 - info: [debug] [MJSONWP] Responding to client with driver.createSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"C:\\Users\\Abhinav Goyal\\workspace\\WebDriver-Automation\\MobileFramework\\src\\test\\resources\\app\\selendroid-test-app-0.17.0.apk","platformVersion":"6.0.1","automationName":"Appium","browserName":"null","platformName":"Android","deviceName":"Redmi Note 3"},"app":"C:\\Users\\Abhinav Goyal\\workspace\\WebDriver-Automation\\MobileFramework\\src\\test\\resources\\app\\selendroid-test-app-0.17.0.apk","platformVersion":"6.0.1","automationName":"Appium","browserName":"null","platformName":"Android","deviceName":"597ffcd5","deviceUDID":"597ffcd5","deviceScreenSize":"1080x1920","deviceModel":"Redmi Note 3","deviceManufacturer":"Xiaomi","appPackage":"io.selendroid.testapp","appWaitPackage":"io.selendroid.testapp","appActivity":"io.selendroid.testapp.HomeScreenActivity","appWaitActivity":"io.selendroid....
+2017-08-26 10:25:16:985 - info: [HTTP] <-- POST /wd/hub/session 200 10373 ms - 1121 
+2017-08-26 10:25:17:082 - info: [HTTP] --> POST /wd/hub/session/e26d67df-82a6-4ef5-8590-f60e6ef468e2/timeouts {"type":"implicit","ms":20000}
+2017-08-26 10:25:17:082 - info: [debug] [MJSONWP] Calling AppiumDriver.timeouts() with args: ["implicit",20000,"e26d67df-82a6-4ef5-8590-f60e6ef468e2"]
+2017-08-26 10:25:17:083 - info: [debug] [BaseDriver] Set implicit wait to 20000ms
+2017-08-26 10:25:17:084 - info: [debug] [MJSONWP] Responding to client with driver.timeouts() result: null
+2017-08-26 10:25:17:085 - info: [HTTP] <-- POST /wd/hub/session/e26d67df-82a6-4ef5-8590-f60e6ef468e2/timeouts 200 2 ms - 76 
+2017-08-26 10:25:20:266 - info: [HTTP] --> POST /wd/hub/session/e26d67df-82a6-4ef5-8590-f60e6ef468e2/timeouts {"type":"implicit","ms":0}
+2017-08-26 10:25:20:267 - info: [debug] [MJSONWP] Calling AppiumDriver.timeouts() with args: ["implicit",0,"e26d67df-82a6-4ef5-8590-f60e6ef468e2"]
+2017-08-26 10:25:20:267 - info: [debug] [BaseDriver] Set implicit wait to 0ms
+2017-08-26 10:25:20:268 - info: [debug] [MJSONWP] Responding to client with driver.timeouts() result: null
+2017-08-26 10:25:20:268 - info: [HTTP] <-- POST /wd/hub/session/e26d67df-82a6-4ef5-8590-f60e6ef468e2/timeouts 200 2 ms - 76 
+2017-08-26 10:25:20:276 - info: [HTTP] --> POST /wd/hub/session/e26d67df-82a6-4ef5-8590-f60e6ef468e2/timeouts {"type":"implicit","ms":1000}
+2017-08-26 10:25:20:276 - info: [debug] [MJSONWP] Calling AppiumDriver.timeouts() with args: ["implicit",1000,"e26d67df-82a6-4ef5-8590-f60e6ef468e2"]
+2017-08-26 10:25:20:276 - info: [debug] [BaseDriver] Set implicit wait to 1000ms
+2017-08-26 10:25:20:277 - info: [debug] [MJSONWP] Responding to client with driver.timeouts() result: null
+2017-08-26 10:25:20:277 - info: [HTTP] <-- POST /wd/hub/session/e26d67df-82a6-4ef5-8590-f60e6ef468e2/timeouts 200 1 ms - 76 
+2017-08-26 10:26:20:277 - warn: [BaseDriver] Shutting down because we waited 60 seconds for a command
+2017-08-26 10:26:20:278 - info: [debug] [AndroidDriver] Shutting down Android driver
+2017-08-26 10:26:20:279 - warn: [Appium] Closing session, cause was 'New Command Timeout of 60 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+2017-08-26 10:26:20:279 - info: [Appium] Removing session e26d67df-82a6-4ef5-8590-f60e6ef468e2 from our master session list
+2017-08-26 10:26:20:279 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:26:20:318 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:26:20:318 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","am","force-stop","io.selendroid.testapp"]
+2017-08-26 10:26:21:442 - info: [debug] [ADB] Pressing the HOME button
+2017-08-26 10:26:21:443 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:26:21:479 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:26:21:480 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","input","keyevent",3]
+2017-08-26 10:26:22:199 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"shutdown"}
+2017-08-26 10:26:22:203 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"shutdown"}
+2017-08-26 10:26:22:208 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type SHUTDOWN
+2017-08-26 10:26:22:242 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"OK, shutting down"}
+2017-08-26 10:26:22:248 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2017-08-26 10:26:22:249 - info: [debug] [UiAutomator] Shutting down UiAutomator
+2017-08-26 10:26:22:249 - info: [debug] [UiAutomator] Moving to state 'stopping'
+2017-08-26 10:26:22:250 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Closed client connection
+2017-08-26 10:26:22:251 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: numtests=1
+2017-08-26 10:26:22:251 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: stream=.
+2017-08-26 10:26:22:251 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+2017-08-26 10:26:22:251 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: test=testRunServer
+2017-08-26 10:26:22:251 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap
+2017-08-26 10:26:22:251 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: current=1
+2017-08-26 10:26:22:252 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS_CODE: 0
+2017-08-26 10:26:22:255 - info: [debug] [UiAutomator] UiAutomator shut down normally
+2017-08-26 10:26:22:255 - info: [debug] [UiAutomator] Moving to state 'stopped'
+2017-08-26 10:26:22:255 - info: [debug] [ADB] Attempting to kill all uiautomator processes
+2017-08-26 10:26:22:255 - info: [debug] [ADB] Getting all processes with uiautomator
+2017-08-26 10:26:22:255 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:26:22:301 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:26:22:302 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","ps"]
+2017-08-26 10:26:22:442 - info: [ADB] No uiautomator process found to kill, continuing...
+2017-08-26 10:26:22:442 - info: [debug] [UiAutomator] Moving to state 'stopped'
+2017-08-26 10:26:22:443 - info: [debug] [Logcat] Stopping logcat capture
+2017-08-26 10:26:22:453 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:26:22:490 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:26:22:491 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","am","force-stop","io.appium.unlock"]
+2017-08-26 10:26:23:245 - info: [debug] [AndroidDriver] Not cleaning generated files. Add `clearSystemFiles` capability if wanted.
+2017-08-26 10:30:55:471 - info: [HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"C:\\Users\\Abhinav Goyal\\workspace\\WebDriver-Automation\\MobileFramework\\src\\test\\resources\\app\\selendroid-test-app-0.17.0.apk","platformVersion":"6.0.1","automationName":"Appium","browserName":"null","platformName":"Android","deviceName":"Redmi Note 3"},"requiredCapabilities":{},"capabilities":{"desiredCapabilities":{"app":"C:\\Users\\Abhinav Goyal\\workspace\\WebDriver-Automation\\MobileFramework\\src\\test\\resources\\app\\selendroid-test-app-0.17.0.apk","platformVersion":"6.0.1","automationName":"Appium","browserName":"null","platformName":"Android","deviceName":"Redmi Note 3"},"requiredCapabilities":{}},"alwaysMatch":{"app":"C:\\Users\\Abhinav Goyal\\workspace\\WebDriver-Automation\\MobileFramework\\src\\test\\resources\\app\\selendroid-test-app-0.17.0.apk","platformVersion":"6.0.1","automationName":"Appium","browserName":"null","platformName":"Android","deviceName":"Redmi Note 3"},"firstMatch":[]}
+2017-08-26 10:30:55:474 - info: [debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"app":"C:\\Users\\Abhinav Goyal\\workspace\\WebDriver-Automation\\MobileFramework\\src\\test\\resources\\app\\selendroid-test-app-0.17.0.apk","platformVersion":"6.0.1","automationName":"Appium","browserName":"null","platformName":"Android","deviceName":"Redmi Note 3"},{},{"desiredCapabilities":{"app":"C:\\Users\\Abhinav Goyal\\workspace\\WebDriver-Automation\\MobileFramework\\src\\test\\resources\\app\\selendroid-test-app-0.17.0.apk","platformVersion":"6.0.1","automationName":"Appium","browserName":"null","platformName":"Android","deviceName":"Redmi Note 3"},"requiredCapabilities":{}}]
+2017-08-26 10:30:55:475 - info: [debug] [BaseDriver] Event 'newSessionRequested' logged at 1503743455475 (16:00:55 GMT+0530 (India Standard Time))
+2017-08-26 10:30:55:480 - info: [Appium] Creating new AndroidDriver (v1.20.0) session
+2017-08-26 10:30:55:480 - info: [Appium] Capabilities:
+2017-08-26 10:30:55:483 - info: [Appium]   app: 'C:\\Users\\Abhinav Goyal\\workspace\\WebDriver-Automation\\MobileFramework\\src\\test\\resources\\app\\selendroid-test-app-0.17.0.apk'
+2017-08-26 10:30:55:483 - info: [Appium]   platformVersion: '6.0.1'
+2017-08-26 10:30:55:483 - info: [Appium]   automationName: 'Appium'
+2017-08-26 10:30:55:483 - info: [Appium]   browserName: 'null'
+2017-08-26 10:30:55:483 - info: [Appium]   platformName: 'Android'
+2017-08-26 10:30:55:483 - info: [Appium]   deviceName: 'Redmi Note 3'
+2017-08-26 10:30:55:486 - info: [debug] [AndroidDriver] AndroidDriver version: 1.20.0
+2017-08-26 10:30:55:495 - warn: [AndroidDriver] The desired capabilities should generally not include both an app and a browserName
+2017-08-26 10:30:55:496 - info: [BaseDriver] Session created with session id: 53b5dc0c-5c35-45b3-96ce-9c3cfc8c1d3d
+2017-08-26 10:30:55:498 - info: [debug] [AndroidDriver] Getting Java version
+2017-08-26 10:30:55:618 - info: [AndroidDriver] Java version is: 1.8.0_121
+2017-08-26 10:30:55:624 - info: [ADB] Checking whether adb is present
+2017-08-26 10:30:55:629 - info: [ADB] Using adb.exe from G:\AndroidSDK\platform-tools\adb.exe
+2017-08-26 10:30:55:630 - info: [AndroidDriver] Retrieving device list
+2017-08-26 10:30:55:630 - info: [debug] [ADB] Trying to find a connected android device
+2017-08-26 10:30:55:631 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:30:55:669 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:30:55:669 - info: [AndroidDriver] Looking for a device with Android '6.0.1'
+2017-08-26 10:30:55:670 - info: [debug] [ADB] Setting device id to 597ffcd5
+2017-08-26 10:30:55:671 - info: [ADB] Getting device platform version
+2017-08-26 10:30:55:672 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:30:55:713 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:30:55:716 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","getprop","ro.build.version.release"]
+2017-08-26 10:30:55:770 - info: [AndroidDriver] Using device: 597ffcd5
+2017-08-26 10:30:55:771 - info: [ADB] Checking whether adb is present
+2017-08-26 10:30:55:773 - info: [ADB] Using adb.exe from G:\AndroidSDK\platform-tools\adb.exe
+2017-08-26 10:30:55:773 - info: [debug] [ADB] Setting device id to 597ffcd5
+2017-08-26 10:30:55:774 - info: [BaseDriver] Using local app 'C:\Users\Abhinav Goyal\workspace\WebDriver-Automation\MobileFramework\src\test\resources\app\selendroid-test-app-0.17.0.apk'
+2017-08-26 10:30:55:775 - info: [debug] [AndroidDriver] Checking whether app is actually present
+2017-08-26 10:30:55:776 - info: [AndroidDriver] Starting Android session
+2017-08-26 10:30:55:778 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","wait-for-device"]
+2017-08-26 10:30:55:813 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:30:55:847 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:30:55:847 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","echo","ping"]
+2017-08-26 10:30:55:896 - info: [debug] [Logcat] Starting logcat capture
+2017-08-26 10:30:55:961 - info: [debug] [AndroidDriver] Pushing settings apk to device...
+2017-08-26 10:30:55:963 - info: [debug] [ADB] Getting install status for io.appium.settings
+2017-08-26 10:30:55:963 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:30:56:003 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:30:56:004 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","pm","list","packages","io.appium.settings"]
+2017-08-26 10:30:56:992 - info: [debug] [ADB] App is not installed
+2017-08-26 10:30:56:993 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","install","C:\\Users\\Abhinav Goyal\\AppData\\Local\\Programs\\appium-desktop\\resources\\app\\node_modules\\appium\\node_modules\\io.appium.settings\\app\\build\\outputs\\apk\\settings_apk-debug.apk"]
+2017-08-26 10:30:58:891 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:30:58:935 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:30:58:935 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","getprop","ro.build.version.sdk"]
+2017-08-26 10:30:58:994 - info: [debug] [ADB] Device API level: 23
+2017-08-26 10:30:58:995 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:30:59:031 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:30:59:031 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","dumpsys","package","io.appium.settings"]
+2017-08-26 10:30:59:129 - info: [debug] [AndroidDriver] Pushing unlock helper app to device...
+2017-08-26 10:30:59:129 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","install","C:\\Users\\Abhinav Goyal\\AppData\\Local\\Programs\\appium-desktop\\resources\\app\\node_modules\\appium\\node_modules\\appium-unlock\\bin\\unlock_apk-debug.apk"]
+2017-08-26 10:30:59:785 - info: [debug] [ADB] Device API level: 23
+2017-08-26 10:30:59:786 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:30:59:822 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:30:59:823 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","appops","set","io.appium.settings","android:mock_location","allow"]
+2017-08-26 10:31:00:491 - info: [ADB] Getting device platform version
+2017-08-26 10:31:00:491 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:31:00:528 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:31:00:529 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","getprop","ro.build.version.release"]
+2017-08-26 10:31:00:588 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:31:00:628 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:31:00:628 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","wm","size"]
+2017-08-26 10:31:01:300 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:31:01:336 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:31:01:336 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","getprop","ro.product.model"]
+2017-08-26 10:31:01:396 - info: [debug] [ADB] Current device property 'ro.product.model': Redmi Note 3
+2017-08-26 10:31:01:396 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:31:01:439 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:31:01:439 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","getprop","ro.product.manufacturer"]
+2017-08-26 10:31:01:499 - info: [debug] [ADB] Current device property 'ro.product.manufacturer': Xiaomi
+2017-08-26 10:31:01:500 - info: [debug] [AndroidDriver] Parsing package and activity from app manifest
+2017-08-26 10:31:01:502 - info: [ADB] Checking whether aapt is present
+2017-08-26 10:31:01:508 - info: [ADB] Using aapt.exe from G:\AndroidSDK\build-tools\25.0.3\aapt.exe
+2017-08-26 10:31:01:509 - info: [ADB] Extracting package and launch activity from manifest
+2017-08-26 10:31:01:536 - info: [debug] [ADB] badging package: io.selendroid.testapp
+2017-08-26 10:31:01:537 - info: [debug] [ADB] badging act: io.selendroid.testapp.HomeScreenActivity
+2017-08-26 10:31:01:537 - info: [debug] [AndroidDriver] Parsed package and activity are: io.selendroid.testapp/io.selendroid.testapp.HomeScreenActivity
+2017-08-26 10:31:01:551 - info: [AndroidDriver] Remote apk path is /data/local/tmp/d6d43218105a4e0ccabfb58bb04f24af.apk
+2017-08-26 10:31:01:552 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:31:01:585 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:31:01:586 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","ls","/data/local/tmp/d6d43218105a4e0ccabfb58bb04f24af.apk"]
+2017-08-26 10:31:01:650 - info: [debug] [AndroidDriver] Checking if app is installed
+2017-08-26 10:31:01:650 - info: [debug] [ADB] Getting install status for io.selendroid.testapp
+2017-08-26 10:31:01:650 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:31:01:689 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:31:01:689 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","pm","list","packages","io.selendroid.testapp"]
+2017-08-26 10:31:02:246 - info: [debug] [ADB] App is installed
+2017-08-26 10:31:02:246 - info: [AndroidDriver] Apk is already on remote and installed, resetting
+2017-08-26 10:31:02:247 - info: [debug] [AndroidDriver] Running fast reset (stop and clear)
+2017-08-26 10:31:02:247 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:31:02:282 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:31:02:283 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","am","force-stop","io.selendroid.testapp"]
+2017-08-26 10:31:02:971 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:31:03:007 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:31:03:007 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","pm","clear","io.selendroid.testapp"]
+2017-08-26 10:31:07:378 - info: [debug] [AndroidDriver] Extracting strings from apk C:\Users\Abhinav Goyal\workspace\WebDriver-Automation\MobileFramework\src\test\resources\app\selendroid-test-app-0.17.0.apk undefined C:\Users\ABHINA~1\AppData\Local\Temp\io.selendroid.testapp
+2017-08-26 10:31:07:380 - info: [debug] [ADB] Extracting strings for language: default
+2017-08-26 10:31:07:380 - info: [debug] [ADB] Device API level: 23
+2017-08-26 10:31:07:381 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:31:07:420 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:31:07:420 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","getprop","persist.sys.locale"]
+2017-08-26 10:31:07:493 - info: [debug] [ADB] Current device property 'persist.sys.locale': en-IN
+2017-08-26 10:31:07:980 - info: [debug] [ADB] No strings.xml for language 'en', getting default strings.xml
+2017-08-26 10:31:08:488 - info: [debug] [ADB] Reading strings from converted strings.json
+2017-08-26 10:31:08:492 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","push","C:\\Users\\ABHINA~1\\AppData\\Local\\Temp\\io.selendroid.testapp\\strings.json","/data/local/tmp"]
+2017-08-26 10:31:08:536 - info: [debug] [AndroidBootstrap] Watching for bootstrap disconnect
+2017-08-26 10:31:08:538 - info: [debug] [ADB] Forwarding system: 4724 to device: 4724
+2017-08-26 10:31:08:539 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","forward","tcp:4724","tcp:4724"]
+2017-08-26 10:31:08:542 - info: [debug] [UiAutomator] Starting UiAutomator
+2017-08-26 10:31:08:543 - info: [debug] [UiAutomator] Moving to state 'starting'
+2017-08-26 10:31:08:543 - info: [debug] [UiAutomator] Parsing uiautomator jar
+2017-08-26 10:31:08:543 - info: [debug] [UiAutomator] Found jar name: 'AppiumBootstrap.jar'
+2017-08-26 10:31:08:544 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","push","C:\\Users\\Abhinav Goyal\\AppData\\Local\\Programs\\appium-desktop\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-bootstrap\\bootstrap\\bin\\AppiumBootstrap.jar","/data/local/tmp/"]
+2017-08-26 10:31:08:617 - info: [debug] [ADB] Attempting to kill all uiautomator processes
+2017-08-26 10:31:08:618 - info: [debug] [ADB] Getting all processes with uiautomator
+2017-08-26 10:31:08:618 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:31:08:653 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:31:08:653 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","ps"]
+2017-08-26 10:31:08:769 - info: [ADB] No uiautomator process found to kill, continuing...
+2017-08-26 10:31:08:770 - info: [debug] [UiAutomator] Starting UIAutomator
+2017-08-26 10:31:08:770 - info: [debug] [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","597ffcd5","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","io.selendroid.testapp","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+2017-08-26 10:31:09:906 - info: [debug] [UiAutomator] Moving to state 'online'
+2017-08-26 10:31:09:909 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] json loading complete.
+2017-08-26 10:31:09:911 - info: [AndroidBootstrap] Android bootstrap socket is now connected
+2017-08-26 10:31:09:913 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:31:09:917 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+2017-08-26 10:31:09:923 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+2017-08-26 10:31:09:990 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:31:09:991 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","dumpsys","window"]
+2017-08-26 10:31:10:073 - info: [AndroidDriver] Screen already unlocked, doing nothing
+2017-08-26 10:31:10:075 - info: [debug] [ADB] Device API level: 23
+2017-08-26 10:31:10:076 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:31:10:118 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:31:10:119 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","am","start","-W","-n","io.selendroid.testapp/io.selendroid.testapp.HomeScreenActivity","-S"]
+2017-08-26 10:31:11:502 - info: [debug] [ADB] Waiting for activity matching pkg: 'io.selendroid.testapp' and activity: 'io.selendroid.testapp.HomeScreenActivity' to be focused
+2017-08-26 10:31:11:503 - info: [debug] [ADB] Possible activities, to be checked: io.selendroid.testapp.HomeScreenActivity, io.selendroid.testapp.io.selendroid.testapp.HomeScreenActivity
+2017-08-26 10:31:11:505 - info: [debug] [ADB] Getting focused package and activity
+2017-08-26 10:31:11:505 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:31:11:555 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:31:11:556 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","dumpsys","window","windows"]
+2017-08-26 10:31:11:632 - info: [debug] [ADB] Found package: 'io.selendroid.testapp' and fully qualified activity name : 'io.selendroid.testapp.HomeScreenActivity'
+2017-08-26 10:31:11:634 - info: [Appium] New AndroidDriver session created successfully, session 53b5dc0c-5c35-45b3-96ce-9c3cfc8c1d3d added to master session list
+2017-08-26 10:31:11:636 - info: [debug] [BaseDriver] Event 'newSessionStarted' logged at 1503743471635 (16:01:11 GMT+0530 (India Standard Time))
+2017-08-26 10:31:11:638 - info: [debug] [MJSONWP] Responding to client with driver.createSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"C:\\Users\\Abhinav Goyal\\workspace\\WebDriver-Automation\\MobileFramework\\src\\test\\resources\\app\\selendroid-test-app-0.17.0.apk","platformVersion":"6.0.1","automationName":"Appium","browserName":"null","platformName":"Android","deviceName":"Redmi Note 3"},"app":"C:\\Users\\Abhinav Goyal\\workspace\\WebDriver-Automation\\MobileFramework\\src\\test\\resources\\app\\selendroid-test-app-0.17.0.apk","platformVersion":"6.0.1","automationName":"Appium","browserName":"null","platformName":"Android","deviceName":"597ffcd5","deviceUDID":"597ffcd5","deviceScreenSize":"1080x1920","deviceModel":"Redmi Note 3","deviceManufacturer":"Xiaomi","appPackage":"io.selendroid.testapp","appWaitPackage":"io.selendroid.testapp","appActivity":"io.selendroid.testapp.HomeScreenActivity","appWaitActivity":"io.selendroid....
+2017-08-26 10:31:11:647 - info: [HTTP] <-- POST /wd/hub/session 200 16172 ms - 1121 
+2017-08-26 10:31:11:760 - info: [HTTP] --> POST /wd/hub/session/53b5dc0c-5c35-45b3-96ce-9c3cfc8c1d3d/timeouts {"type":"implicit","ms":20000}
+2017-08-26 10:31:11:762 - info: [debug] [MJSONWP] Calling AppiumDriver.timeouts() with args: ["implicit",20000,"53b5dc0c-5c35-45b3-96ce-9c3cfc8c1d3d"]
+2017-08-26 10:31:11:764 - info: [debug] [BaseDriver] Set implicit wait to 20000ms
+2017-08-26 10:31:11:768 - info: [debug] [MJSONWP] Responding to client with driver.timeouts() result: null
+2017-08-26 10:31:11:771 - info: [HTTP] <-- POST /wd/hub/session/53b5dc0c-5c35-45b3-96ce-9c3cfc8c1d3d/timeouts 200 9 ms - 76 
+2017-08-26 10:31:14:986 - info: [HTTP] --> POST /wd/hub/session/53b5dc0c-5c35-45b3-96ce-9c3cfc8c1d3d/timeouts {"type":"implicit","ms":0}
+2017-08-26 10:31:14:986 - info: [debug] [MJSONWP] Calling AppiumDriver.timeouts() with args: ["implicit",0,"53b5dc0c-5c35-45b3-96ce-9c3cfc8c1d3d"]
+2017-08-26 10:31:14:987 - info: [debug] [BaseDriver] Set implicit wait to 0ms
+2017-08-26 10:31:14:987 - info: [debug] [MJSONWP] Responding to client with driver.timeouts() result: null
+2017-08-26 10:31:14:988 - info: [HTTP] <-- POST /wd/hub/session/53b5dc0c-5c35-45b3-96ce-9c3cfc8c1d3d/timeouts 200 2 ms - 76 
+2017-08-26 10:31:14:996 - info: [HTTP] --> POST /wd/hub/session/53b5dc0c-5c35-45b3-96ce-9c3cfc8c1d3d/timeouts {"type":"implicit","ms":1000}
+2017-08-26 10:31:14:996 - info: [debug] [MJSONWP] Calling AppiumDriver.timeouts() with args: ["implicit",1000,"53b5dc0c-5c35-45b3-96ce-9c3cfc8c1d3d"]
+2017-08-26 10:31:14:997 - info: [debug] [BaseDriver] Set implicit wait to 1000ms
+2017-08-26 10:31:14:997 - info: [debug] [MJSONWP] Responding to client with driver.timeouts() result: null
+2017-08-26 10:31:14:998 - info: [HTTP] <-- POST /wd/hub/session/53b5dc0c-5c35-45b3-96ce-9c3cfc8c1d3d/timeouts 200 2 ms - 76 
+2017-08-26 10:32:15:001 - warn: [BaseDriver] Shutting down because we waited 60 seconds for a command
+2017-08-26 10:32:15:003 - info: [debug] [AndroidDriver] Shutting down Android driver
+2017-08-26 10:32:15:004 - warn: [Appium] Closing session, cause was 'New Command Timeout of 60 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+2017-08-26 10:32:15:004 - info: [Appium] Removing session 53b5dc0c-5c35-45b3-96ce-9c3cfc8c1d3d from our master session list
+2017-08-26 10:32:15:006 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:32:15:073 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:32:15:074 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","am","force-stop","io.selendroid.testapp"]
+2017-08-26 10:32:16:426 - info: [debug] [ADB] Pressing the HOME button
+2017-08-26 10:32:16:427 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:32:16:465 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:32:16:465 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","input","keyevent",3]
+2017-08-26 10:32:17:263 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"shutdown"}
+2017-08-26 10:32:17:270 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"shutdown"}
+2017-08-26 10:32:17:270 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type SHUTDOWN
+2017-08-26 10:32:17:273 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"OK, shutting down"}
+2017-08-26 10:32:17:276 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2017-08-26 10:32:17:278 - info: [debug] [UiAutomator] Shutting down UiAutomator
+2017-08-26 10:32:17:278 - info: [debug] [UiAutomator] Moving to state 'stopping'
+2017-08-26 10:32:17:281 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Closed client connection
+2017-08-26 10:32:17:282 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: numtests=1
+2017-08-26 10:32:17:282 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: stream=.
+2017-08-26 10:32:17:282 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+2017-08-26 10:32:17:283 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: test=testRunServer
+2017-08-26 10:32:17:283 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap
+2017-08-26 10:32:17:283 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: current=1
+2017-08-26 10:32:17:283 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS_CODE: 0
+2017-08-26 10:32:17:283 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: stream=
+2017-08-26 10:32:17:284 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] Test results for WatcherResultPrinter=.
+2017-08-26 10:32:17:284 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] Time: 67.421
+2017-08-26 10:32:17:284 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] OK (1 test)
+2017-08-26 10:32:17:287 - info: [debug] [UiAutomator] UiAutomator shut down normally
+2017-08-26 10:32:17:288 - info: [debug] [UiAutomator] Moving to state 'stopped'
+2017-08-26 10:32:17:289 - info: [debug] [ADB] Attempting to kill all uiautomator processes
+2017-08-26 10:32:17:289 - info: [debug] [ADB] Getting all processes with uiautomator
+2017-08-26 10:32:17:289 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:32:17:340 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:32:17:341 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","ps"]
+2017-08-26 10:32:17:491 - info: [ADB] No uiautomator process found to kill, continuing...
+2017-08-26 10:32:17:491 - info: [debug] [UiAutomator] Moving to state 'stopped'
+2017-08-26 10:32:17:492 - info: [debug] [Logcat] Stopping logcat capture
+2017-08-26 10:32:17:500 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:32:17:539 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:32:17:540 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","am","force-stop","io.appium.unlock"]
+2017-08-26 10:32:18:309 - info: [debug] [AndroidDriver] Not cleaning generated files. Add `clearSystemFiles` capability if wanted.
+2017-08-26 10:44:56:494 - info: [HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"C:\\Users\\Abhinav Goyal\\workspace\\WebDriver-Automation\\MobileFramework\\src\\test\\resources\\app\\selendroid-test-app-0.17.0.apk","platformVersion":"6.0.1","automationName":"Appium","browserName":"null","platformName":"Android","deviceName":"Redmi Note 3"},"requiredCapabilities":{},"capabilities":{"desiredCapabilities":{"app":"C:\\Users\\Abhinav Goyal\\workspace\\WebDriver-Automation\\MobileFramework\\src\\test\\resources\\app\\selendroid-test-app-0.17.0.apk","platformVersion":"6.0.1","automationName":"Appium","browserName":"null","platformName":"Android","deviceName":"Redmi Note 3"},"requiredCapabilities":{}},"alwaysMatch":{"app":"C:\\Users\\Abhinav Goyal\\workspace\\WebDriver-Automation\\MobileFramework\\src\\test\\resources\\app\\selendroid-test-app-0.17.0.apk","platformVersion":"6.0.1","automationName":"Appium","browserName":"null","platformName":"Android","deviceName":"Redmi Note 3"},"firstMatch":[]}
+2017-08-26 10:44:56:498 - info: [debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"app":"C:\\Users\\Abhinav Goyal\\workspace\\WebDriver-Automation\\MobileFramework\\src\\test\\resources\\app\\selendroid-test-app-0.17.0.apk","platformVersion":"6.0.1","automationName":"Appium","browserName":"null","platformName":"Android","deviceName":"Redmi Note 3"},{},{"desiredCapabilities":{"app":"C:\\Users\\Abhinav Goyal\\workspace\\WebDriver-Automation\\MobileFramework\\src\\test\\resources\\app\\selendroid-test-app-0.17.0.apk","platformVersion":"6.0.1","automationName":"Appium","browserName":"null","platformName":"Android","deviceName":"Redmi Note 3"},"requiredCapabilities":{}}]
+2017-08-26 10:44:56:499 - info: [debug] [BaseDriver] Event 'newSessionRequested' logged at 1503744296499 (16:14:56 GMT+0530 (India Standard Time))
+2017-08-26 10:44:56:506 - info: [Appium] Creating new AndroidDriver (v1.20.0) session
+2017-08-26 10:44:56:507 - info: [Appium] Capabilities:
+2017-08-26 10:44:56:511 - info: [Appium]   app: 'C:\\Users\\Abhinav Goyal\\workspace\\WebDriver-Automation\\MobileFramework\\src\\test\\resources\\app\\selendroid-test-app-0.17.0.apk'
+2017-08-26 10:44:56:511 - info: [Appium]   platformVersion: '6.0.1'
+2017-08-26 10:44:56:511 - info: [Appium]   automationName: 'Appium'
+2017-08-26 10:44:56:511 - info: [Appium]   browserName: 'null'
+2017-08-26 10:44:56:512 - info: [Appium]   platformName: 'Android'
+2017-08-26 10:44:56:512 - info: [Appium]   deviceName: 'Redmi Note 3'
+2017-08-26 10:44:56:516 - info: [debug] [AndroidDriver] AndroidDriver version: 1.20.0
+2017-08-26 10:44:56:527 - warn: [AndroidDriver] The desired capabilities should generally not include both an app and a browserName
+2017-08-26 10:44:56:529 - info: [BaseDriver] Session created with session id: 58ffce6f-6f50-4520-90b3-b84b8b70a96d
+2017-08-26 10:44:56:531 - info: [debug] [AndroidDriver] Getting Java version
+2017-08-26 10:44:57:719 - info: [AndroidDriver] Java version is: 1.8.0_121
+2017-08-26 10:44:57:726 - info: [ADB] Checking whether adb is present
+2017-08-26 10:44:57:731 - info: [ADB] Using adb.exe from G:\AndroidSDK\platform-tools\adb.exe
+2017-08-26 10:44:57:731 - info: [AndroidDriver] Retrieving device list
+2017-08-26 10:44:57:732 - info: [debug] [ADB] Trying to find a connected android device
+2017-08-26 10:44:57:733 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:44:59:750 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:44:59:750 - info: [AndroidDriver] Looking for a device with Android '6.0.1'
+2017-08-26 10:44:59:751 - info: [debug] [ADB] Setting device id to 597ffcd5
+2017-08-26 10:44:59:751 - info: [ADB] Getting device platform version
+2017-08-26 10:44:59:752 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:44:59:786 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:44:59:790 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","getprop","ro.build.version.release"]
+2017-08-26 10:44:59:869 - info: [AndroidDriver] Using device: 597ffcd5
+2017-08-26 10:44:59:871 - info: [ADB] Checking whether adb is present
+2017-08-26 10:44:59:872 - info: [ADB] Using adb.exe from G:\AndroidSDK\platform-tools\adb.exe
+2017-08-26 10:44:59:872 - info: [debug] [ADB] Setting device id to 597ffcd5
+2017-08-26 10:44:59:874 - info: [BaseDriver] Using local app 'C:\Users\Abhinav Goyal\workspace\WebDriver-Automation\MobileFramework\src\test\resources\app\selendroid-test-app-0.17.0.apk'
+2017-08-26 10:44:59:874 - info: [debug] [AndroidDriver] Checking whether app is actually present
+2017-08-26 10:44:59:875 - info: [AndroidDriver] Starting Android session
+2017-08-26 10:44:59:877 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","wait-for-device"]
+2017-08-26 10:44:59:942 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:44:59:976 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:44:59:977 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","echo","ping"]
+2017-08-26 10:45:00:032 - info: [debug] [Logcat] Starting logcat capture
+2017-08-26 10:45:00:102 - info: [debug] [AndroidDriver] Pushing settings apk to device...
+2017-08-26 10:45:00:103 - info: [debug] [ADB] Getting install status for io.appium.settings
+2017-08-26 10:45:00:103 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:45:00:143 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:45:00:144 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","pm","list","packages","io.appium.settings"]
+2017-08-26 10:45:01:007 - info: [debug] [ADB] App is not installed
+2017-08-26 10:45:01:008 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","install","C:\\Users\\Abhinav Goyal\\AppData\\Local\\Programs\\appium-desktop\\resources\\app\\node_modules\\appium\\node_modules\\io.appium.settings\\app\\build\\outputs\\apk\\settings_apk-debug.apk"]
+2017-08-26 10:45:02:583 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:45:02:620 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:45:02:621 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","getprop","ro.build.version.sdk"]
+2017-08-26 10:45:02:674 - info: [debug] [ADB] Device API level: 23
+2017-08-26 10:45:02:674 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:45:02:710 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:45:02:710 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","dumpsys","package","io.appium.settings"]
+2017-08-26 10:45:02:771 - info: [debug] [AndroidDriver] Pushing unlock helper app to device...
+2017-08-26 10:45:02:771 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","install","C:\\Users\\Abhinav Goyal\\AppData\\Local\\Programs\\appium-desktop\\resources\\app\\node_modules\\appium\\node_modules\\appium-unlock\\bin\\unlock_apk-debug.apk"]
+2017-08-26 10:45:03:447 - info: [debug] [ADB] Device API level: 23
+2017-08-26 10:45:03:447 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:45:03:482 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:45:03:483 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","appops","set","io.appium.settings","android:mock_location","allow"]
+2017-08-26 10:45:04:140 - info: [ADB] Getting device platform version
+2017-08-26 10:45:04:140 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:45:04:176 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:45:04:176 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","getprop","ro.build.version.release"]
+2017-08-26 10:45:04:252 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:45:04:296 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:45:04:297 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","wm","size"]
+2017-08-26 10:45:05:343 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:45:05:380 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:45:05:380 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","getprop","ro.product.model"]
+2017-08-26 10:45:05:453 - info: [debug] [ADB] Current device property 'ro.product.model': Redmi Note 3
+2017-08-26 10:45:05:454 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:45:05:490 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:45:05:490 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","getprop","ro.product.manufacturer"]
+2017-08-26 10:45:05:560 - info: [debug] [ADB] Current device property 'ro.product.manufacturer': Xiaomi
+2017-08-26 10:45:05:561 - info: [debug] [AndroidDriver] Parsing package and activity from app manifest
+2017-08-26 10:45:05:563 - info: [ADB] Checking whether aapt is present
+2017-08-26 10:45:05:569 - info: [ADB] Using aapt.exe from G:\AndroidSDK\build-tools\25.0.3\aapt.exe
+2017-08-26 10:45:05:569 - info: [ADB] Extracting package and launch activity from manifest
+2017-08-26 10:45:06:056 - info: [debug] [ADB] badging package: io.selendroid.testapp
+2017-08-26 10:45:06:056 - info: [debug] [ADB] badging act: io.selendroid.testapp.HomeScreenActivity
+2017-08-26 10:45:06:056 - info: [debug] [AndroidDriver] Parsed package and activity are: io.selendroid.testapp/io.selendroid.testapp.HomeScreenActivity
+2017-08-26 10:45:06:328 - info: [AndroidDriver] Remote apk path is /data/local/tmp/d6d43218105a4e0ccabfb58bb04f24af.apk
+2017-08-26 10:45:06:328 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:45:06:362 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:45:06:363 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","ls","/data/local/tmp/d6d43218105a4e0ccabfb58bb04f24af.apk"]
+2017-08-26 10:45:06:436 - info: [debug] [AndroidDriver] Checking if app is installed
+2017-08-26 10:45:06:436 - info: [debug] [ADB] Getting install status for io.selendroid.testapp
+2017-08-26 10:45:06:436 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:45:06:478 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:45:06:478 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","pm","list","packages","io.selendroid.testapp"]
+2017-08-26 10:45:07:092 - info: [debug] [ADB] App is installed
+2017-08-26 10:45:07:092 - info: [AndroidDriver] Apk is already on remote and installed, resetting
+2017-08-26 10:45:07:093 - info: [debug] [AndroidDriver] Running fast reset (stop and clear)
+2017-08-26 10:45:07:094 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:45:07:131 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:45:07:131 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","am","force-stop","io.selendroid.testapp"]
+2017-08-26 10:45:07:806 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:45:07:840 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:45:07:841 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","pm","clear","io.selendroid.testapp"]
+2017-08-26 10:45:08:419 - info: [debug] [AndroidDriver] Extracting strings from apk C:\Users\Abhinav Goyal\workspace\WebDriver-Automation\MobileFramework\src\test\resources\app\selendroid-test-app-0.17.0.apk undefined C:\Users\ABHINA~1\AppData\Local\Temp\io.selendroid.testapp
+2017-08-26 10:45:08:420 - info: [debug] [ADB] Extracting strings for language: default
+2017-08-26 10:45:08:421 - info: [debug] [ADB] Device API level: 23
+2017-08-26 10:45:08:422 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:45:08:461 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:45:08:462 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","getprop","persist.sys.locale"]
+2017-08-26 10:45:08:527 - info: [debug] [ADB] Current device property 'persist.sys.locale': en-IN
+2017-08-26 10:45:09:451 - info: [debug] [ADB] No strings.xml for language 'en', getting default strings.xml
+2017-08-26 10:45:10:032 - info: [debug] [ADB] Reading strings from converted strings.json
+2017-08-26 10:45:10:036 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","push","C:\\Users\\ABHINA~1\\AppData\\Local\\Temp\\io.selendroid.testapp\\strings.json","/data/local/tmp"]
+2017-08-26 10:45:10:107 - info: [debug] [AndroidBootstrap] Watching for bootstrap disconnect
+2017-08-26 10:45:10:110 - info: [debug] [ADB] Forwarding system: 4724 to device: 4724
+2017-08-26 10:45:10:110 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","forward","tcp:4724","tcp:4724"]
+2017-08-26 10:45:10:113 - info: [debug] [UiAutomator] Starting UiAutomator
+2017-08-26 10:45:10:114 - info: [debug] [UiAutomator] Moving to state 'starting'
+2017-08-26 10:45:10:114 - info: [debug] [UiAutomator] Parsing uiautomator jar
+2017-08-26 10:45:10:114 - info: [debug] [UiAutomator] Found jar name: 'AppiumBootstrap.jar'
+2017-08-26 10:45:10:115 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","push","C:\\Users\\Abhinav Goyal\\AppData\\Local\\Programs\\appium-desktop\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-bootstrap\\bootstrap\\bin\\AppiumBootstrap.jar","/data/local/tmp/"]
+2017-08-26 10:45:10:206 - info: [debug] [ADB] Attempting to kill all uiautomator processes
+2017-08-26 10:45:10:207 - info: [debug] [ADB] Getting all processes with uiautomator
+2017-08-26 10:45:10:208 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:45:10:247 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:45:10:247 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","ps"]
+2017-08-26 10:45:10:365 - info: [ADB] No uiautomator process found to kill, continuing...
+2017-08-26 10:45:10:366 - info: [debug] [UiAutomator] Starting UIAutomator
+2017-08-26 10:45:10:366 - info: [debug] [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","597ffcd5","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","io.selendroid.testapp","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+2017-08-26 10:45:11:427 - info: [debug] [UiAutomator] Moving to state 'online'
+2017-08-26 10:45:11:429 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Loading json...
+2017-08-26 10:45:11:430 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] json loading complete.
+2017-08-26 10:45:11:431 - info: [AndroidBootstrap] Android bootstrap socket is now connected
+2017-08-26 10:45:11:433 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:45:11:436 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+2017-08-26 10:45:11:436 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+2017-08-26 10:45:11:478 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:45:11:479 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","dumpsys","window"]
+2017-08-26 10:45:11:568 - info: [AndroidDriver] Screen already unlocked, doing nothing
+2017-08-26 10:45:11:570 - info: [debug] [ADB] Device API level: 23
+2017-08-26 10:45:11:571 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:45:11:608 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:45:11:608 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","am","start","-W","-n","io.selendroid.testapp/io.selendroid.testapp.HomeScreenActivity","-S"]
+2017-08-26 10:45:12:878 - info: [debug] [ADB] Waiting for activity matching pkg: 'io.selendroid.testapp' and activity: 'io.selendroid.testapp.HomeScreenActivity' to be focused
+2017-08-26 10:45:12:879 - info: [debug] [ADB] Possible activities, to be checked: io.selendroid.testapp.HomeScreenActivity, io.selendroid.testapp.io.selendroid.testapp.HomeScreenActivity
+2017-08-26 10:45:12:880 - info: [debug] [ADB] Getting focused package and activity
+2017-08-26 10:45:12:880 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:45:12:917 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:45:12:917 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","dumpsys","window","windows"]
+2017-08-26 10:45:13:005 - info: [debug] [ADB] Found package: 'io.selendroid.testapp' and fully qualified activity name : 'io.selendroid.testapp.HomeScreenActivity'
+2017-08-26 10:45:13:007 - info: [Appium] New AndroidDriver session created successfully, session 58ffce6f-6f50-4520-90b3-b84b8b70a96d added to master session list
+2017-08-26 10:45:13:008 - info: [debug] [BaseDriver] Event 'newSessionStarted' logged at 1503744313008 (16:15:13 GMT+0530 (India Standard Time))
+2017-08-26 10:45:13:009 - info: [debug] [MJSONWP] Responding to client with driver.createSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"C:\\Users\\Abhinav Goyal\\workspace\\WebDriver-Automation\\MobileFramework\\src\\test\\resources\\app\\selendroid-test-app-0.17.0.apk","platformVersion":"6.0.1","automationName":"Appium","browserName":"null","platformName":"Android","deviceName":"Redmi Note 3"},"app":"C:\\Users\\Abhinav Goyal\\workspace\\WebDriver-Automation\\MobileFramework\\src\\test\\resources\\app\\selendroid-test-app-0.17.0.apk","platformVersion":"6.0.1","automationName":"Appium","browserName":"null","platformName":"Android","deviceName":"597ffcd5","deviceUDID":"597ffcd5","deviceScreenSize":"1080x1920","deviceModel":"Redmi Note 3","deviceManufacturer":"Xiaomi","appPackage":"io.selendroid.testapp","appWaitPackage":"io.selendroid.testapp","appActivity":"io.selendroid.testapp.HomeScreenActivity","appWaitActivity":"io.selendroid....
+2017-08-26 10:45:13:015 - info: [HTTP] <-- POST /wd/hub/session 200 16520 ms - 1121 
+2017-08-26 10:45:13:175 - info: [HTTP] --> POST /wd/hub/session/58ffce6f-6f50-4520-90b3-b84b8b70a96d/timeouts {"type":"implicit","ms":20000}
+2017-08-26 10:45:13:177 - info: [debug] [MJSONWP] Calling AppiumDriver.timeouts() with args: ["implicit",20000,"58ffce6f-6f50-4520-90b3-b84b8b70a96d"]
+2017-08-26 10:45:13:178 - info: [debug] [BaseDriver] Set implicit wait to 20000ms
+2017-08-26 10:45:13:179 - info: [debug] [MJSONWP] Responding to client with driver.timeouts() result: null
+2017-08-26 10:45:13:180 - info: [HTTP] <-- POST /wd/hub/session/58ffce6f-6f50-4520-90b3-b84b8b70a96d/timeouts 200 4 ms - 76 
+2017-08-26 10:45:16:476 - info: [HTTP] --> POST /wd/hub/session/58ffce6f-6f50-4520-90b3-b84b8b70a96d/timeouts {"type":"implicit","ms":0}
+2017-08-26 10:45:16:476 - info: [debug] [MJSONWP] Calling AppiumDriver.timeouts() with args: ["implicit",0,"58ffce6f-6f50-4520-90b3-b84b8b70a96d"]
+2017-08-26 10:45:16:477 - info: [debug] [BaseDriver] Set implicit wait to 0ms
+2017-08-26 10:45:16:477 - info: [debug] [MJSONWP] Responding to client with driver.timeouts() result: null
+2017-08-26 10:45:16:478 - info: [HTTP] <-- POST /wd/hub/session/58ffce6f-6f50-4520-90b3-b84b8b70a96d/timeouts 200 2 ms - 76 
+2017-08-26 10:45:16:485 - info: [HTTP] --> POST /wd/hub/session/58ffce6f-6f50-4520-90b3-b84b8b70a96d/timeouts {"type":"implicit","ms":1000}
+2017-08-26 10:45:16:485 - info: [debug] [MJSONWP] Calling AppiumDriver.timeouts() with args: ["implicit",1000,"58ffce6f-6f50-4520-90b3-b84b8b70a96d"]
+2017-08-26 10:45:16:486 - info: [debug] [BaseDriver] Set implicit wait to 1000ms
+2017-08-26 10:45:16:486 - info: [debug] [MJSONWP] Responding to client with driver.timeouts() result: null
+2017-08-26 10:45:16:487 - info: [HTTP] <-- POST /wd/hub/session/58ffce6f-6f50-4520-90b3-b84b8b70a96d/timeouts 200 2 ms - 76 
+2017-08-26 10:46:16:487 - warn: [BaseDriver] Shutting down because we waited 60 seconds for a command
+2017-08-26 10:46:16:488 - info: [debug] [AndroidDriver] Shutting down Android driver
+2017-08-26 10:46:16:489 - warn: [Appium] Closing session, cause was 'New Command Timeout of 60 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+2017-08-26 10:46:16:489 - info: [Appium] Removing session 58ffce6f-6f50-4520-90b3-b84b8b70a96d from our master session list
+2017-08-26 10:46:16:490 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:46:16:529 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:46:16:530 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","am","force-stop","io.selendroid.testapp"]
+2017-08-26 10:46:17:395 - info: [debug] [ADB] Pressing the HOME button
+2017-08-26 10:46:17:396 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:46:17:436 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:46:17:437 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","input","keyevent",3]
+2017-08-26 10:46:18:447 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"shutdown"}
+2017-08-26 10:46:18:464 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"shutdown"}
+2017-08-26 10:46:18:465 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type SHUTDOWN
+2017-08-26 10:46:18:465 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"OK, shutting down"}
+2017-08-26 10:46:18:465 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Closed client connection
+2017-08-26 10:46:18:466 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2017-08-26 10:46:18:467 - info: [debug] [UiAutomator] Shutting down UiAutomator
+2017-08-26 10:46:18:467 - info: [debug] [UiAutomator] Moving to state 'stopping'
+2017-08-26 10:46:18:469 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: numtests=1
+2017-08-26 10:46:18:470 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: stream=.
+2017-08-26 10:46:18:470 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+2017-08-26 10:46:18:470 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: test=testRunServer
+2017-08-26 10:46:18:470 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap
+2017-08-26 10:46:18:470 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: current=1
+2017-08-26 10:46:18:471 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS_CODE: 0
+2017-08-26 10:46:18:474 - info: [debug] [UiAutomator] UiAutomator shut down normally
+2017-08-26 10:46:18:474 - info: [debug] [UiAutomator] Moving to state 'stopped'
+2017-08-26 10:46:18:474 - info: [debug] [ADB] Attempting to kill all uiautomator processes
+2017-08-26 10:46:18:475 - info: [debug] [ADB] Getting all processes with uiautomator
+2017-08-26 10:46:18:475 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:46:18:512 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:46:18:512 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","ps"]
+2017-08-26 10:46:18:652 - info: [ADB] No uiautomator process found to kill, continuing...
+2017-08-26 10:46:18:652 - info: [debug] [UiAutomator] Moving to state 'stopped'
+2017-08-26 10:46:18:653 - info: [debug] [Logcat] Stopping logcat capture
+2017-08-26 10:46:18:659 - info: [debug] [ADB] Getting connected devices...
+2017-08-26 10:46:18:706 - info: [debug] [ADB] 1 device(s) connected
+2017-08-26 10:46:18:706 - info: [debug] [ADB] Running 'G:\AndroidSDK\platform-tools\adb.exe' with args: ["-P",5037,"-s","597ffcd5","shell","am","force-stop","io.appium.unlock"]
+2017-08-26 10:46:19:424 - info: [debug] [AndroidDriver] Not cleaning generated files. Add `clearSystemFiles` capability if wanted.

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNG Learning]" parallel="tests">
+  <test name="UICatalog Test(failed)" parallel="tests">
+    <groups>
+      <run>
+        <include name="uicatalog"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.w2a.appium.testcases.ios.UICatalogTest">
+        <methods>
+          <include name="SwitchTest"/>
+          <include name="SliderTest"/>
+          <include name="init"/>
+          <include name="SteppersTest"/>
+        </methods>
+      </class> <!-- com.w2a.appium.testcases.ios.UICatalogTest -->
+    </classes>
+  </test> <!-- UICatalog Test(failed) -->
+</suite> <!-- Failed suite [TestNG Learning] -->

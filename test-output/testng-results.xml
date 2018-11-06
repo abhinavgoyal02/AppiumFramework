@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNG Learning" duration-ms="47385" started-at="2015-08-26T17:51:20Z" finished-at="2015-08-26T17:52:07Z">
+    <groups>
+    </groups>
+    <test name="Stryker Test" duration-ms="47385" started-at="2015-08-26T17:51:20Z" finished-at="2015-08-26T17:52:07Z">
+      <class name="com.w2a.appium.testcases.ios.StrykerTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.w2a.appium.testcases.ios.StrykerTest@adf9982]" name="setUp" is-config="true" duration-ms="8100" started-at="2015-08-26T23:21:12Z" finished-at="2015-08-26T23:21:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.w2a.appium.testcases.ios.StrykerTest@adf9982]" name="init" is-config="true" duration-ms="1" started-at="2015-08-26T23:21:20Z" finished-at="2015-08-26T23:21:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="drawTest()[pri:1, instance:com.w2a.appium.testcases.ios.StrykerTest@adf9982]" name="drawTest" duration-ms="25206" started-at="2015-08-26T23:21:20Z" finished-at="2015-08-26T23:21:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- drawTest -->
+        <test-method status="PASS" signature="ExpandElement()[pri:2, instance:com.w2a.appium.testcases.ios.StrykerTest@adf9982]" name="ExpandElement" duration-ms="11708" started-at="2015-08-26T23:21:45Z" finished-at="2015-08-26T23:21:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExpandElement -->
+        <test-method status="PASS" signature="TypeTest()[pri:3, instance:com.w2a.appium.testcases.ios.StrykerTest@adf9982]" name="TypeTest" duration-ms="10459" started-at="2015-08-26T23:21:57Z" finished-at="2015-08-26T23:22:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TypeTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.w2a.appium.testcases.ios.StrykerTest@adf9982]" name="tearDown" is-config="true" duration-ms="668" started-at="2015-08-26T23:22:07Z" finished-at="2015-08-26T23:22:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.w2a.appium.testcases.ios.StrykerTest -->
+    </test> <!-- Stryker Test -->
+  </suite> <!-- TestNG Learning -->
+</testng-results>

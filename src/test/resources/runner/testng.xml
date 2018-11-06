@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Learning" parallel="tests" thread-count="5">
+
+
+
+
+<test name="UICatalog Test">
+    <classes>
+        <class name="com.w2a.appium.testcases.ios.UICatalogTest" ></class>  
+    </classes>
+</test>
+
+
+
+
+
+
+
+
+
+</suite>
